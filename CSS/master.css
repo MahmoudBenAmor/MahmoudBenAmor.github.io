@@ -1,0 +1,189 @@
+html{
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Helvetica Neue', sans-serif;
+}
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.prof-box{
+    display: block;
+   /* width: 400px;*/
+    width: 31%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    color: white;
+    
+    margin: 0 auto; /*center an element*/
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+    
+}
+
+
+.prof-box img{
+    /*margin-top: 50px;*/
+    
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 3.2vw;/*245%;/*40px;*/
+    
+}
+
+.prof-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    font-weight: 200;
+    letter-spacing: 1;
+}
+
+.social-media{
+    font-size: 50vm;/*40px;*/
+    /*height: 50px;*/
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin:0 auto;
+    
+    
+}
+
+.social-media a{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+
+.line-break{
+    /*width: 300px;*/
+    width: 80%;
+    margin-left: 10%;/*50px;*/
+    margin-right: 10%;/*50px;*/
+    border-top: 1px solid white;
+    margin-bottom: 25px;
+}
+
+.line-break1{
+    width: 60%;/*200px;*/
+    margin-left: 20%;/*100px;*/
+    margin-right: 20%;/*100px;*/
+    border-top: 1px solid white;
+    padding-bottom: 7px;
+}
+
+.cv-portfolio {
+    border-top: 10px;
+    height: 280px;
+    padding-bottom: 10px;
+    
+}
+.cv-portfolio p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.cv-portfolio img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.cv-portfolio a:visited{
+    color: white;
+}
+
+.box :hover{
+    background-color: rgba(237, 230, 230, 0.3);
+}
+
+.cv-box{
+    width: 88%;/*1100px;*/
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    color: white;
+    margin: 0 auto; /*center an eliment*/
+    margin-top: 0px;
+    text-align: center;
+    
+
+}
+
+.cv-box img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+a:visited{
+    color: white;
+}
+
+/*********************************************************************************/
+
+@media screen and (max-width: 640px){
+    body{
+        width: auto;
+        height: 100%;
+        float: none;
+    }
+    .prof-box{
+        width: auto;
+        height: 100%;
+        float: none;
+    }
+    h1{
+        font-weight: 100;
+    letter-spacing: 6;
+    font-size: 4vw;/*245%;/*40px;*/
+    }
+    
+    .cv-portfolio {
+    border-top: 2%;
+    height: 56%;
+    padding-bottom: 2%;
+    
+}
+    
+    .cv-portfolio img {
+        max-width: 100%;
+        height: auto;
+        width:100%;
+        float: none;
+        flex-direction: column;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
+
+
+/*********************************************************************************/
